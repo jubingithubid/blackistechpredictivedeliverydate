@@ -1,0 +1,18 @@
+Powershell commands
+C:\Personal\AI\PredictiveAnalytics-main\PredictiveAnalytics-main
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+root@jubinthomas:/home/jubinthomas/PredictiveAnalytics# python3 -m venv myenv
+root@jubinthomas:/home/jubinthomas/PredictiveAnalytics# source myenv/bin/activate
+OR .\myenv\Scripts\Activate
+root@jubinthomas:/home/jubinthomas/PredictiveAnalytics#  ./myenv/Scripts/python app.py
+OR python3 app.py
+
+
+
+Pre-requisites
+
+pip install flask
+ pip install scikit-learn
+pip install pandas
